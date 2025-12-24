@@ -25,5 +25,12 @@ class Employee{
 public class General {
     public static void main(String[] args) {
         
+        Employee Emp=new Employee(101);
+
+        Emp.setEsalary(40000.0);
+
+        System.out.println("Employee Salary Is : " + Emp.getEsalary());
+        System.out.println("Employee ID Is : "+Emp.getEid());
+        
     }
 }
