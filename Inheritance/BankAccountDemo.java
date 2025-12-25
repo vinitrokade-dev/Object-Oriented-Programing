@@ -30,7 +30,7 @@ class BankAccount {
         System.out.println("Remaining Balance:" + balance+" RS");
     }
 
-    // Gette rs and sette rs
+    // Gette rs and setters  [Here the getter are used for the to retrieve the value of the private field and set are used for the modified the value of private field]
     public String getAccountNumber() {
         return accountNumber;
     }
